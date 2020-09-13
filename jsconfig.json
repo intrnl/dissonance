@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"paths": {
+			"@core/*": ["src/core/*"],
+			"@patcher/*": ["src/patcher/*"],
+			"@preload/*": ["src/preload/*"],
+			"@shared/*": ["src/shared/*"]
+		}
+	},
+	"include": ["src/"]
+}
