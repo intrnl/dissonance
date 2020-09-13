@@ -74,7 +74,7 @@ export function findAll (filter) {
  * @returns {(mod: any) => boolean}
  */
 export function byProps (props) {
-	return (mod) => props.every((prop) => mod[prop] !== undefined);
+	return (module) => props.every((prop) => module[prop] !== undefined);
 }
 
 /**
@@ -83,8 +83,8 @@ export function byProps (props) {
  * @returns {(mod: any) => boolean}
  */
 export function byPrototypes (protos) {
-	return (mod) => mod.prototype &&
-		protos.every((proto) => mod.prototype[proto] !== undefined);
+	return (module) => module.prototype &&
+		protos.every((proto) => module.prototype[proto] !== undefined);
 }
 
 /**
@@ -93,5 +93,5 @@ export function byPrototypes (protos) {
  * @returns {(mod: any) => boolean}
  */
 export function byDisplayName (name) {
-	return (mod) => mod.displayName === name;
+	return (module) => module.displayName === name;
 }
