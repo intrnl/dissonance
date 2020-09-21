@@ -17,8 +17,8 @@
 		"@rollup/plugin-json": "^4.1.0",
 		"@rollup/plugin-node-resolve": "^9.0.0",
 		"electron": "9.0.4",
-		"esbuild": "^0.7.1",
-		"rollup": "^2.26.11",
+		"esbuild": "^0.7.2",
+		"rollup": "^2.27.1",
 		"rollup-plugin-esbuild": "^2.5.0"
 	}
 }
