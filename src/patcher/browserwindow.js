@@ -19,7 +19,7 @@ export class PatchedBrowserWindow extends BrowserWindow {
 			} else if (opts.webPreferences?.preload) {
 				// Discord client
 				opts.webPreferences.preload = PRELOAD_PATH;
-				opts.webPreferences.contextIsolation = false;
+				// opts.webPreferences.contextIsolation = false;
 			}
 		}
 
