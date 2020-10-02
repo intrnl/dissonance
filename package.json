@@ -13,12 +13,12 @@
 	},
 	"devDependencies": {
 		"@rollup/plugin-alias": "^3.1.1",
-		"@rollup/plugin-commonjs": "^15.0.0",
+		"@rollup/plugin-commonjs": "^15.1.0",
 		"@rollup/plugin-json": "^4.1.0",
 		"@rollup/plugin-node-resolve": "^9.0.0",
 		"electron": "9.0.4",
-		"esbuild": "^0.7.2",
-		"rollup": "^2.27.1",
+		"esbuild": "^0.7.8",
+		"rollup": "^2.28.2",
 		"rollup-plugin-esbuild": "^2.5.0"
 	}
 }
