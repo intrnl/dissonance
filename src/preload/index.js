@@ -1,7 +1,7 @@
 import { ipcRenderer, contextBridge } from 'electron';
 
 import * as pkg from '../../package.json';
-import { IPC_GET_PRELOAD } from '../shared/constants/ipc.js';
+import { IPC_GET_PRELOAD } from '@shared/constants/ipc.js';
 import { isContextIsolated } from '@shared/utils/root.js';
 
 
