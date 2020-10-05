@@ -7,7 +7,10 @@
 		"email": "intrnl28+discord@gmail.com",
 		"url": "https://intr.now.sh"
 	},
-	"scripts": {},
+	"scripts": {
+		"build": "rollup -c",
+		"watch": "rollup -cw"
+	},
 	"peerDependencies": {
 		"electron": "9.0.4"
 	},
