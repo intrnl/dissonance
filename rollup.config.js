@@ -4,7 +4,7 @@ import alias from '@rollup/plugin-alias';
 import resolve from '@rollup/plugin-node-resolve';
 import commonjs from '@rollup/plugin-commonjs';
 import json from '@rollup/plugin-json';
-import esbuild from 'rollup-plugin-esbuild';
+import esbuild from '@intrnl/rollup-plugin-esbuild';
 
 
 let dev = !!process.env.ROLLUP_WATCH;

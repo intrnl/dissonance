@@ -1,4 +1,5 @@
 devDependencies:
+  '@intrnl/rollup-plugin-esbuild': 0.1.0_esbuild@0.7.9+rollup@2.28.2
   '@rollup/plugin-alias': 3.1.1_rollup@2.28.2
   '@rollup/plugin-commonjs': 15.1.0_rollup@2.28.2
   '@rollup/plugin-json': 4.1.0_rollup@2.28.2
@@ -26,6 +27,17 @@ packages:
       global-tunnel-ng: 2.7.1
     resolution:
       integrity: sha512-vAuHUbfvBQpYTJ5wB7uVIDq5c/Ry0fiTBMs7lnEYAo/qXXppIVcWdfBr57u6eRnKdVso7KSiH6p/LbQAG6Izrg==
+  /@intrnl/rollup-plugin-esbuild/0.1.0_esbuild@0.7.9+rollup@2.28.2:
+    dependencies:
+      '@rollup/pluginutils': 4.0.0_rollup@2.28.2
+      esbuild: 0.7.9
+      rollup: 2.28.2
+    dev: true
+    peerDependencies:
+      esbuild: ^0.6.28
+      rollup: ^2.26.8
+    resolution:
+      integrity: sha512-KA7RllyDyfm7tjT041SiF+5e9/NOpoZ3TZFKdRxgN1OVT/UCu5t2g2XhB6xEm8tspxm5rBY728dKC82EnaQWnw==
   /@rollup/plugin-alias/3.1.1_rollup@2.28.2:
     dependencies:
       rollup: 2.28.2
@@ -92,6 +104,19 @@ packages:
       rollup: ^1.20.0||^2.0.0
     resolution:
       integrity: sha512-GksZ6pr6TpIjHm8h9lSQ8pi8BE9VeubNT0OMJ3B5uZJ8pz73NPiqOtCog/x2/QzM1ENChPKxMDhiQuRHsqc+lg==
+  /@rollup/pluginutils/4.0.0_rollup@2.28.2:
+    dependencies:
+      '@types/estree': 0.0.45
+      estree-walker: 2.0.1
+      picomatch: 2.2.2
+      rollup: 2.28.2
+    dev: true
+    engines:
+      node: '>= 8.0.0'
+    peerDependencies:
+      rollup: ^1.20.0||^2.0.0
+    resolution:
+      integrity: sha512-b5QiJRye4JlSg29bKNEECoKbLuPXZkPEHSgEjjP1CJV1CPdDBybfYHfm6kyq8yK51h/Zsyl8OvWUrp0FUBukEQ==
   /@sindresorhus/is/0.14.0:
     dev: true
     engines:
@@ -857,6 +882,7 @@ packages:
     resolution:
       integrity: sha1-x+sXyT4RLLEIb6bY5R+wZnt5pfk=
 specifiers:
+  '@intrnl/rollup-plugin-esbuild': ^0.1.0
   '@rollup/plugin-alias': ^3.1.1
   '@rollup/plugin-commonjs': ^15.1.0
   '@rollup/plugin-json': ^4.1.0
