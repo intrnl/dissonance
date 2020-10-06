@@ -43,7 +43,7 @@ let config = {
 		json({ namedExports: true, preferConst: false }),
 
 		esbuild({
-			target: 'es2019',
+			target: 'chrome78',
 			define: {
 				'process.env.NODE_ENV': dev ? '"development"' : '"production"',
 				'import.meta.env.MODE': dev ? '"development"' : '"production"',
